@@ -13,7 +13,7 @@ webstorm11输入中文标点符号的时候有问题，比如，即使你切换�
 
 <!-- more -->
 
-![img](/images/article/2016-7-28/2.png)
+![img]({{site.url}}/article/2016-7-28/2.png)
 
 <link rel="stylesheet" href="/css/keybtn.css">
 
@@ -36,7 +36,7 @@ webstorm11内置的jdk版本有问题，存在中文标点输入后被转成英�
 
 在调出的输入框中输入jdk，回车，选择我们刚安装的8u45就好了，重启，然后就能愉快地输入了。
 
-![img](/images/article/2016-7-28/1.png)
+![img]({{site.url}}/article/2016-7-28/1.png)
 
 方法二：
 

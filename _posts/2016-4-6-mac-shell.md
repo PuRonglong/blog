@@ -15,7 +15,7 @@ share: true
 
 先来看看那幅打动我的漂亮的命令行是什么样的吧~
 
-![img](/images/article/2016-4-6/1.png)
+![img]({{site.url}}images/article/2016-4-6/1.png)
 
 <!-- more -->
 
@@ -27,7 +27,7 @@ share: true
 
 当然是下载我们的iterm2啦~
 
-![img](/images/article/2016-4-6/2.png)
+![img]({{site.url}}images/article/2016-4-6/2.png)
 
 2：
 
@@ -39,11 +39,11 @@ share: true
 
 oh-my-zsh:
 
-![img](/images/article/2016-4-6/3.png)
+![img]({{site.url}}images/article/2016-4-6/3.png)
 
 在iterm2中输入以下：
 
-![img](/images/article/2016-4-6/4.png)
+![img]({{site.url}}images/article/2016-4-6/4.png)
 
 这里我装了几次都不行，连接有问题，进度一直是0%，愁死了，然后官网里给的另外一个方法需要使用wget，结果mac系统又没有自带wget命令，有需要先安装了wget，找了以下发现安装wget好麻烦，需要先下载wget，然后在命令行里进行解压，安装，看起来好麻烦我也就没有用wget安装oh-my-zsh了，还是试了多次第一种安装方法，终于有一次不知道怎么就连接上了，然后就装上了。PS：这里其实蠢了以下，后来才知道wget可以不用手动安装这么麻烦，我们有homebrew啊，执行：
 
@@ -139,7 +139,7 @@ oh-my-zsh:
 
 通过load presets选择安装的配色主题。
 
-![img](/images/article/2016-4-6/5.jpeg)
+![img]({{site.url}}images/article/2016-4-6/5.jpeg)
 
 10:
 
@@ -334,6 +334,6 @@ x     default foreground or background (透明)
 
 看看新效果：
 
-![img](/images/article/2016-4-6/6.png)
+![img]({{site.url}}images/article/2016-4-6/6.png)
 
 终于折腾完了~

@@ -26,13 +26,13 @@ jekyll new jekyll-blog
 
 命令行提示如下：
 
-![img](/images/article/2016-5-22/1.png)
+![img]({{site.url}}images/article/2016-5-22/1.png)
 
 可以看到成功启动了服务并且本地地址是http://localhost:4000/。
 
 初始界面如下所示：
 
-![img](/images/article/2016-5-22/2.png)
+![img]({{site.url}}images/article/2016-5-22/2.png)
 
 后续我们就是在这个基础上进行改动了。
 
@@ -147,7 +147,7 @@ jekyll new jekyll-blog
 
 效果如下：
 
-![img](/images/article/2016-5-22/3.png)
+![img]({{site.url}}images/article/2016-5-22/3.png)
 
 **文章分类功能：**
 
@@ -168,7 +168,7 @@ jekyll的云标签有多种实现方法，先介绍第一种：
 
 在_includes文件夹里添加tag.html，然后在页面中将其include进来。页面效果如下：
 
-![img](/images/article/2016-5-22/4.png)
+![img]({{site.url}}images/article/2016-5-22/4.png)
 
 左边文章列表右边标签列表。左边的列表其实有两个，一个是所有文章的列表，也就是对应所有标签的文章列表，还有一个是不同类型的文章列表，我们先来看第一个列表：
 

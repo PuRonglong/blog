@@ -19,7 +19,7 @@ share: true
 
 遇到的问题开始是这样的。首先是通过yeoman构建一个项目，构建好后使用```gulp```命令启动项目时报如下错误：
 
-![img](/images/article/2016-4-2/1.png)
+![img]({{site.url}}images/article/2016-4-2/1.png)
 
 <!-- more -->
 
@@ -33,7 +33,7 @@ share: true
 
 结果：
 
-![img](/images/article/2016-4-2/2.png)
+![img]({{site.url}}images/article/2016-4-2/2.png)
 
 咦，怎么又报错了捏？
 
@@ -51,7 +51,7 @@ share: true
 
 运行结果：
 
-![img](/images/article/2016-4-2/3.png)
+![img]({{site.url}}images/article/2016-4-2/3.png)
 
 怎么还有错呢？
 
@@ -69,6 +69,6 @@ share: true
 
 如果能在localhost://27017里打开，看到如下内容，就说明启动成功啦~
 
-![img](/images/article/2016-4-2/4.png)
+![img]({{site.url}}images/article/2016-4-2/4.png)
 
 OK，启动数据库服务成功。

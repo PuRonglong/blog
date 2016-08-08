@@ -13,7 +13,7 @@ share: true
 
 先来看一看效果图吧~
 
-![img](/images/article/2016-3-6/1.gif)
+![img]({{site.url}}images/article/2016-3-6/1.gif)
 
 <!-- more -->
 
@@ -73,15 +73,15 @@ CSS:
 
 如下：
 
-![img](/images/article/2016-3-6/5.png)
+![img]({{site.url}}images/article/2016-3-6/5.png)
 
 width和height两个属性决定两点大小，box-shadow决定两点位置和颜色，总共这两个点有三个位置四种状态，分别是这三个位置，
 
-![img](/images/article/2016-3-6/2.png)
+![img]({{site.url}}images/article/2016-3-6/2.png)
 
-![img](/images/article/2016-3-6/3.png)
+![img]({{site.url}}images/article/2016-3-6/3.png)
 
-![img](/images/article/2016-3-6/4.png)
+![img]({{site.url}}images/article/2016-3-6/4.png)
 
 三个位置是左中右，四种状态是点线点点，拿上面那个点作为例子，当这个点到达中的位置的时候，对应这时的状态要把点的width加长，变为线，过了这个状态到达左边位置的时候状态又变为点，最后的状态时，把位置又定位到初始的时候，这样，一个点的一个动画就算完成了，其他四个点主要就是位置和颜色的不同了
 

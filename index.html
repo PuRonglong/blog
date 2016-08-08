@@ -29,7 +29,7 @@ layout: default
             <li class="disabled"><a href="javascript:;"><i class="material-icons">chevron_left</i></a></li>
 	        {% else %}
 	            {% if paginator.previous_page == 1 %}
-            <li class="waves-effect"><a href="{{site.url}}/"><i class="material-icons">chevron_left</i></a></li>
+            <li class="waves-effect"><a href="{{site.url}}"><i class="material-icons">chevron_left</i></a></li>
 	            {% else %}
             <li class="waves-effect"><a href="{{site.url}}/page{{ paginator.previous_page }}"><i class="material-icons">chevron_left</i></a></li>
 	            {% endif %}
@@ -42,7 +42,7 @@ layout: default
 	        <li class="waves-effect">
 	            {% endif %}
 	            {% if i == 1 %}
-	            <a href="{{site.url}}/">{{i}}</a>
+	            <a href="{{site.url}}">{{i}}</a>
 	            {% else %}
 	            <a href="{{site.url}}/page{{i}}">{{i}}</a>
 	            {% endif %}

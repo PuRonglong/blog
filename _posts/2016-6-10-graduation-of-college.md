@@ -19,27 +19,27 @@ share: true
 四年的时光里，见证过东师须晴日，惟余莽莽的北国风光：
 
 <figure>
-    <img src="/images/article/2016-6-10/10.jpg" alt="img" />
+    <img src="{{site.url}}images/article/2016-6-10/10.jpg" alt="img" />
     <figcaption>柳园小径</figcaption>
 </figure>
 
 也看过关不住的满园春色：
 
-![img](/images/article/2016-6-10/11.jpg)
+![img]({{site.url}}images/article/2016-6-10/11.jpg)
 
 既有蓦然回首，灯火阑珊：
 
-![img](/images/article/2016-6-10/12.jpg)
+![img]({{site.url}}images/article/2016-6-10/12.jpg)
 
 也有夕阳无限好的美丽黄昏：
 
-![img](/images/article/2016-6-10/9.jpg)
+![img]({{site.url}}images/article/2016-6-10/9.jpg)
 
 再回首，当初是为什么报的这所学校呢？从祖国的西南到东北，斜跨大半个中国。
 
 怕是以后，都不会来这么北了吧。火车直达需要47小时44分钟。
 
-![img](/images/article/2016-6-10/3.png)
+![img]({{site.url}}images/article/2016-6-10/3.png)
 
 时间回到高考后不久。
 
@@ -77,7 +77,7 @@ share: true
 
 剩下的日子就是搬离租的学区房了。妈妈要上班，我和妹妹就骑着爷爷的电动三轮车从新都到竹友搬东西。
 
-![img](/images/article/2016-6-10/1.jpg)
+![img]({{site.url}}images/article/2016-6-10/1.jpg)
 
 车子造型类似于这样（等等，画风有哪里不对），但颜色是红色的，且稍微宽一些，因为要搭上妹妹所以一车其实装不了多少，要来回跑几趟。然后一般我们在车上聊的更多的是以后去大学以后要怎样怎样。
 
@@ -98,7 +98,7 @@ share: true
 抱着一张大学录取通知书来睡觉，醒来后发现通知书变成了毕业证。
 
 <figure>
-    <img src="/images/article/2016-6-10/2.jpg" alt="img" />
+    <img src="{{site.url}}images/article/2016-6-10/2.jpg" alt="img" />
     <figcaption>图片来自网络，侵删。</figcaption>
 </figure>
 
@@ -118,19 +118,19 @@ share: true
 
 几天前，6个人一起去了净月潭玩：
 
-![img](/images/article/2016-6-10/7.jpg)
+![img]({{site.url}}images/article/2016-6-10/7.jpg)
 
 少有的一次6个人一起出去玩，怎能不来张合照：
 
-![img](/images/article/2016-6-10/4.jpg)
+![img]({{site.url}}images/article/2016-6-10/4.jpg)
 
 虽然寝室上床下桌的设计再也没有了睡在上铺的我的兄弟：
 
-![img](/images/article/2016-6-10/6.jpg)
+![img]({{site.url}}images/article/2016-6-10/6.jpg)
 
 但是那些年一起“同居”的日子里你们的欢声笑语，嬉笑怒骂，皆是风景。
 
-![img](/images/article/2016-6-10/5.jpg)
+![img]({{site.url}}images/article/2016-6-10/5.jpg)
 
 对于即将毕业的你，没什么可送的，送一首诗给你吧：
 

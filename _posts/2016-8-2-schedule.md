@@ -16,7 +16,7 @@ share: true
 
 <!-- more -->
 
-![img](/images/article/2016-8-2/1.png)
+![img]({{site.url}}images/article/2016-8-2/1.png)
 
 每一次的提交记录GitHub都会以浅绿的颜色记录下来，颜色越深代表提交次数越多。也就是说，在过去的365天里，每一天都有在做同一件事。
 

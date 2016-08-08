@@ -13,7 +13,7 @@ share: true
 
 原图效果如下：
 
-![img](/images/article/2016-4-5/1.png)
+![img]({{site.url}}images/article/2016-4-5/1.png)
 
 <!-- more -->
 
@@ -30,7 +30,7 @@ share: true
 
 先来看看我们不加样式时是这样的：
 
-![img](/images/article/2016-4-5/2.png)
+![img]({{site.url}}images/article/2016-4-5/2.png)
 
 添加每个按键的主要样式背景色，字体大小颜色等：
 
@@ -53,7 +53,7 @@ share: true
 
 这里先给```Q```按键加上效果，如下：
 
-![img](/images/article/2016-4-5/3.png)
+![img]({{site.url}}images/article/2016-4-5/3.png)
 
 大致看上去这样好像可以了，但仔细发现还有地方不一样，问题在于看起来不够真实。因为真实键位可不是看起来这么扁平化的，而且日常使用会让我们的键盘有些发亮，一般ABS材质的键帽容易出现这种情况，也就是俗称的键帽容易“打油”，通过```line-gradient```给键帽设置渐变来达到一点这样的效果，可是仅仅这样这个键帽还是不够形象，还缺少一个立体感。
 
@@ -72,7 +72,7 @@ share: true
 
 放大给大家看看效果：
 
-![img](/images/article/2016-4-5/4.png)
+![img]({{site.url}}images/article/2016-4-5/4.png)
 
 这样是要好一点了呢，可是还不够完美，因为光影效果差了点不够立体和真实。说到影当然想到我们神奇的box-shadow啦~给底部的外面加点阴影，给上部的内面加上颜色不同的阴影，代码如下：
 
@@ -82,11 +82,11 @@ share: true
 
 效果上图：
 
-![img](/images/article/2016-4-5/5.png)
+![img]({{site.url}}images/article/2016-4-5/5.png)
 
 放到正常大小看就perfect~\/(≧▽≦)/~啦啦啦，如下：
 
-![img](/images/article/2016-4-5/6.png)
+![img]({{site.url}}images/article/2016-4-5/6.png)
 
 至于不同的键位差别就是通过另设各自的padding来控制大小咯~
 

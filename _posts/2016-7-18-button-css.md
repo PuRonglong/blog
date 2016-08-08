@@ -22,7 +22,7 @@ share: true
 
 通过拆解这组动画会发现，其实原本是像下面这样的：
 
-![img](/images/article/2016-7-18/1.png)
+![img]({{site.url}}images/article/2016-7-18/1.png)
 
 原来这个按钮的前面有一个一样大小的span，鼠标移动到按钮上的时候改变span的right属性，让它往右移动，在按钮的background和文字之间加了一个span，从而形成我们看到的效果。
 
@@ -71,7 +71,7 @@ share: true
 
 可以看到现在的效果是这样的：
 
-![img](/images/article/2016-7-18/1.png)
+![img]({{site.url}}images/article/2016-7-18/1.png)
 
 那么后面就是重要的一步，添加行为，我们使用jQuery实现：
 
