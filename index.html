@@ -8,12 +8,12 @@ layout: default
 	{% for post in paginator.posts %}
 		<li>
 			<h2>
-				<a class="post-link" href="{{site.url}}{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 			</h2>
 			<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
 			{% if post.content contains '<!-- more -->' %}
 				{{ post.content | split:'<!-- more -->' | first %}}
-				<p class="readmore-p"><a class="button-readmore waves-effect waves-light" href="{{site.url}}{{site.url}}{{ post.url }}">Read more</a></p>
+				<p class="readmore-p"><a class="button-readmore waves-effect waves-light" href="{{site.url}}{{ post.url }}">Read more</a></p>
 			{% else %}
 				{{ post.content }}
 			{% endif %}
