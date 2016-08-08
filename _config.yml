@@ -10,7 +10,7 @@ title: 小龙龙的个人博客
 email: puronglong@foxmail.com
 description: > # this means to ignore newlines until "baseurl:"
   蒲荣龙|小龙龙的个人博客
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "http://www.puronglong.com/" # the subpath of your site, e.g. /blog
 url: "http://www.puronglong.com/blog" # the base hostname & protocol for your site
 github_username:  puronglong
 
