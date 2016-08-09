@@ -186,8 +186,8 @@ share: true
 
 前路漫漫~
 
-<script type="text/javascript" src="/js/echarts.min.js"></script>
-<script type="text/javascript" src="/js/china.js"></script>
+<script type="text/javascript" src="{{site.url}}/js/echarts.min.js"></script>
+<script type="text/javascript" src="{{site.url}}/js/china.js"></script>
 <script type="text/javascript">
     var dom = document.getElementById("container");
     var myChart = echarts.init(dom);
