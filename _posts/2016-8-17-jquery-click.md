@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-最近使用jquery，echarts和postal的时候遇到一些问题，遇到其中的一些点解决后总结记录一下：
+最近使用jquery，echarts和postal的时候遇到一些问题，其中的一些点解决后总结记录一下：
 
 <!-- more -->
 
