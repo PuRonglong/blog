@@ -39,7 +39,7 @@ html{
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1,h2,h3,h4,h5,h6,p,blockquote,pre,ul,ol,dl,figure,.highlight{
+p,blockquote,pre,ul,ol,dl,figure,.highlight{
     margin-bottom: 15px;
 }
 
@@ -325,9 +325,9 @@ blockquote > :last-child{
     list-style: none;
 }
 .post-list > li{
-    margin-bottom: 50px;
+    margin-bottom: 22px;
     border-bottom: #ebf2f6 1px solid;
-    padding-bottom: 34px;
+    padding-bottom: 19px;
 }
 .post-list > li:after{
     display: block;
@@ -341,7 +341,7 @@ blockquote > :last-child{
     background: #fff;
     border-radius: 100%;
     box-shadow: #fff 0 0 0 5px;
-    margin-top: 31px;
+    margin-top: 15px;
 }
 
 .tag-post-list > li{
