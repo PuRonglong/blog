@@ -13,7 +13,7 @@ permalink: /tag/
 			{% for node in pages_list %}
 				{% if node.title != null %}
 				{% if group == null or group == node.group %}
-					<li><a href="{{ site.BASE_PATH }}{{node.url}}">{{node.title}}</a> <span class="text-muted tag-li-span">—{{ node.date | date: "%Y年%m月%d日" }}</span></li>
+					<li><a href="{{site.url}}{{node.url}}">{{node.title}}</a> <span class="text-muted tag-li-span">—{{ node.date | date: "%Y年%m月%d日" }}</span></li>
 				{% endif %}
 				{% endif %}
 			{% endfor %}
