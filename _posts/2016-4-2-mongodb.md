@@ -19,9 +19,9 @@ share: true
 
 遇到的问题开始是这样的。首先是通过yeoman构建一个项目，构建好后使用```gulp```命令启动项目时报如下错误：
 
-![img]({{site.url}}images/article/2016-4-2/1.png)
-
 <!-- more -->
+
+![img]({{site.url}}images/article/2016-4-2/1.png)
 
 别看提示这么长，其实就是说连不上我们的```mongodb```了。道理很简单，我们的项目依赖```mongodb```，那在启动项目前是不是应该先启动我们的```mongodb```服务呢。搜噶。下面来启动我们的```mongodb```：
 

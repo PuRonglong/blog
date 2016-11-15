@@ -13,9 +13,9 @@ share: true
 
 最开始的时候，模板里用的是jquery.flot.js这样一个jquery的图表插件：
 
-![img]({{site.url}}images/article/2016-3-15/1.png)
-
 <!-- more -->
+
+![img]({{site.url}}images/article/2016-3-15/1.png)
 
 但是在使用的过程中常常发现一些问题，比如一般会出现这样的图表展示：
 
