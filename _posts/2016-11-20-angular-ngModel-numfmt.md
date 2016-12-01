@@ -1,7 +1,7 @@
 ---
 layout: post
-title: angularJS 报错： [ngModel:numfmt]
-description: "angularJS 报错： [ngModel:numfmt]"
+title: angularJS tips(1) 报错: [ngModel:numfmt]
+description: "angularJS tips(1) 报错: [ngModel:numfmt]"
 tags: [技术]
 image:
   background: triangular.png
