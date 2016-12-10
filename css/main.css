@@ -56,7 +56,7 @@ p {
  * Images
  */
 img{
-    max-width: 100%;
+    width: 100%;
     vertical-align: middle;
     display: block;
     margin: 0 auto;
