@@ -1,4 +1,13 @@
 {% if page.title %}
+<!--分享组件-->
+
+<div class="wrapper" style="margin-bottom: 16px;">
+    <span>分享至：</span>
+    <div class="social-share" style="display: inline-block;"></div>
+</div>
+
+{% endif %}
+{% if page.title %}
 <!-- 多说评论框 -->
 <div class="ds-thread wrapper" data-thread-key="{{ page.id }}" data-title="{{ page.title }}"
      data-url="{{site.url}}{{ page.url }}"></div>
@@ -37,6 +46,7 @@
 
 <script type="text/javascript" src='{{site.url}}js/jquery.min.js'></script>
 <script type="text/javascript" src='{{site.url}}js/materialize.min.js'></script>
+<script type="text/javascript" src='{{site.url}}js/jquery.share.min.js'></script>
 <script type="text/javascript" src='{{site.url}}js/index.js'></script>
 
 <script type="text/javascript">
