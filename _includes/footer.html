@@ -1,3 +1,24 @@
+{% if page.title %}
+<!-- 多说评论框 -->
+<div class="ds-thread wrapper" data-thread-key="{{ page.id }}" data-title="{{ page.title }}"
+     data-url="{{site.url}}{{ page.url }}"></div>
+<!-- 多说评论框 -->
+<!-- 多说JS代码 -->
+<script type="text/javascript">
+    var duoshuoQuery = {short_name: "puronglong"};
+    (function () {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';
+        ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说JS代码 -->
+{% endif %}
+
 <footer class="site-footer">
     <div class="wrapper">
         <div class="footer-col-wrapper">
@@ -54,3 +75,4 @@
 </script>
 <!-- 友盟统计 -->
 <!-- <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1259896904'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1259896904' type='text/javascript'%3E%3C/script%3E"));</script> -->
+
