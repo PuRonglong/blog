@@ -64,7 +64,7 @@ pre .vi { color: #bb60d5 } /* Name.Variable.Instance */
 pre .il { color: #40a070 } /* Literal.Number.Integer.Long */
 pre code { white-space: pre }
 .highlighter-rouge pre .hll { background-color: #49483e }
-.highlighter-rouge pre { background: #272822; color: #f8f8f2; overflow-x: auto; padding: 15px;}
+.highlighter-rouge pre { background: #272822; color: #f8f8f2; overflow-x: auto; padding: 15px;font-size: 12px;}
 .highlighter-rouge pre .c { color: #75715e } /* Comment */
 .highlighter-rouge pre .err { color: #960050; background-color: #1e0010 } /* Error */
 .highlighter-rouge pre .k { color: #66d9ef } /* Keyword */
