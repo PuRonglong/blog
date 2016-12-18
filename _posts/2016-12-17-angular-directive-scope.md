@@ -26,7 +26,7 @@ angular中一个指令被创建以后，它的作用域有两种情况，继承�
 
 当scope参数是一个对象的时候，表明这是一个隔离作用域。通过几种符号可以将指令内部的隔离作用域，同指令外部的作用域进行数据绑定。下面主要来说说第三种情况：
 
-来看网上的一个事例：
+来看网上@finley的一个事例：
 
 <p data-height="330" data-theme-id="20434" data-slug-hash="EyraKX" data-default-tab="result" data-user="mafeifan" data-embed-version="2" data-pen-title="scope = {}" class="codepen">See the Pen <a href="http://codepen.io/mafeifan/pen/EyraKX/">scope = {}</a> by finley (<a href="http://codepen.io/mafeifan">@mafeifan</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
