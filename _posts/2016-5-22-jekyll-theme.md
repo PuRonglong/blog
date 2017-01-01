@@ -42,27 +42,9 @@ jekyll new jekyll-blog
 
 根目录下的index页做如下修改：
 
-```html
-<ul class="post-list">
-	<!-- site.posts一个按照时间倒序的所有 Posts 的清单。 -->
-	{.% for post in site.posts %}
-		<li>
-			<h2>
-				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</h2>
-			<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-			{.% if post.content contains '<!-- more -->' %}
-				{{ post.content | split:'<!-- more -->' | first %}}
-				<p class="readmore-p"><a class="btn btn-info" href="{{ post.url }}">Read more</a></p>
-			{.% else %}
-				{{ post.content }}
-			{.% endif %}
-		</li>
-	{.% endfor %}
-</ul>
-```
+![img]({{site.url}}images/article/2016-5-22/5.png)
 
-可以看到主要的一点是if判断我们post的文章是否含```<!-- more -->```，若是包含的话，就使用过滤器将我们文章内容split为两部分，并选取第一部分显示为post.content。
+可以看到主要的一点是if判断我们post的文章是否含```more```的一段信息，若是包含的话，就使用过滤器将我们文章内容split为两部分，并选取第一部分显示为post.content。
 
 **添加分页功能**
 
@@ -172,55 +154,11 @@ jekyll的云标签有多种实现方法，先介绍第一种：
 
 左边文章列表右边标签列表。左边的列表其实有两个，一个是所有文章的列表，也就是对应所有标签的文章列表，还有一个是不同类型的文章列表，我们先来看第一个列表：
 
-```html
-<ul class="post-list" post-cate="all">
-{.% for post in site.posts %}
-	<li>
-		<h2>
-			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-		</h2>
-		<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-		<span class="post-meta">all</span>
-		<span class="text-info pull-right">字数：{{ page.content | number_of_words }}</span>
-		{.% if post.content contains '<!-- more -->' %}
-			{{ post.content | split:'<!-- more -->' | first %}}
-			<p class="readmore-p"><a class="btn btn-info" href="{{ post.url }}">Read more</a></p>
-		{.% else %}
-			{{ post.content }}
-		{.% endif %}
-	</li>
-{.% endfor %}
-</ul>
-```
+![img]({{site.url}}images/article/2016-5-22/6.png)
 
 这是一个带有post-cate属性并且属性值为all的ul列表，for循环遍历所有的文章。第二个列表如下：
 
-```html
-{.% for tag in site.tags %}
-<ul class="post-list" post-cate="{{ tag | first }}">
-	{.% for posts in tag %}
-		{.% for post in posts %}
-			{.% if post.url %}
-				<li>
-					<h2>
-						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-					</h2>
-					<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-					<span class="post-meta">{{ tag | first }}</span>
-					<span class="text-info pull-right">字数：{{ page.content | number_of_words }}</span>
-					{.% if post.content contains '<!-- more -->' %}
-						{{ post.content | split:'<!-- more -->' | first %}}
-						<p class="readmore-p"><a class="btn btn-info" href="{{ post.url }}">Read more</a></p>
-					{.% else %}
-						{{ post.content }}
-					{.% endif %}
-				</li>
-			{.% endif %}
-		{.% endfor %}
-	{.% endfor %}
-</ul>
-{.% endfor %}
-```
+![img]({{site.url}}images/article/2016-5-22/7.png)
 
 这里的一个不同是ul是放在for循环里的，循环所有的标签，
 

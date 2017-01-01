@@ -27,25 +27,7 @@ demo1:
 
 HTML:
 
-```html
-	<body >
-		<div ng-controller="HelloController">
-		    <p>双向绑定</p>
-		    <input ng-model="greeting">
-		    <p>Hello {{greeting || "World"}}</p>
-		    <button ng-click="init()">重置</button>
-		    <hr>
-		</div>
-
-		<script>
-		    function HelloController($scope) {
-		        $scope.init = function() {
-		            $scope.greeting = "Hello";
-		        }
-		    }
-		</script>
-	</body>
-```
+![img]({{site.url}}images/article/2016-2-23/1.png)
 
 ```ng-model```为```greeting```的这个input中输入的值就是下面p标签中```greeting```的对应值。
 

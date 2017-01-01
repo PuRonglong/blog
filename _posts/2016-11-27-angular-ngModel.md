@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-angular tips
+angular tips。
 
 遇到一个需求，需要对ng-model的值进行过滤，记录下解决方案并扩展一下。
 
@@ -24,7 +24,7 @@ angular tips
 <input class="form-control" style="display: inline-block;width: 120px;" ng-model="position.fLatitude"/>
 ```
 
-如上所示，我们的input标签绑定了ng-model，position.fLongitude的值是获取的数据，返回的经纬度数据精确到了小数点后六位，但现在要显示到小数点后两位，并且不改变实际的坐标值。在angular中容易想到用过滤器，类似`|number:2`这样的形式，但是这样使用过滤器是要在{{}}符号中，在ng-model中尝试使用了下，如：
+如上所示，我们的input标签绑定了ng-model，position.fLongitude的值是获取的数据，返回的经纬度数据精确到了小数点后六位，但现在要显示到小数点后两位，并且不改变实际的坐标值。在angular中容易想到用过滤器，类似`|number:2`这样的形式，但是这样使用过滤器是要花括号中，在ng-model中尝试使用了下，如：
 
 ```js
 ng-model="position.fLongitude | number:2"
