@@ -28,11 +28,12 @@ function lazyload() { //监听页面滚动事件
     for (var i = n; i < num; i++) {
     	//如果图片距离顶部的高度小于可见区域高度加上滚动的高度
         if (img[i].offsetTop-300 < seeHeight + scrollTop) {
-            if (img[i].getAttribute("src") == "http://www.puronglong.com/blog//images/default.gif") {
+            if (img[i].getAttribute("src") == "") {
                 img[i].src = img[i].getAttribute("data-src");
             }
             n = i + 1;
         }else{
+            
         }
     }
 }
