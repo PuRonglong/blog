@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-指令是angular的强大功能之一，指令作用域则是指令中重要的一个点。
+指令是angular的强大功能之一，指令作用域则是指令中一个重要的点。
 
 <!-- more -->
 
@@ -26,7 +26,7 @@ angular中一个指令被创建以后，它的作用域有两种情况，继承�
 
 当scope参数是一个对象的时候，表明这是一个隔离作用域。通过几种符号可以将指令内部的隔离作用域，同指令外部的作用域进行数据绑定。下面主要来说说第三种情况：
 
-来看网上@finley的一个事例：
+来看网上@finley的一个示例：
 
 <p data-height="330" data-theme-id="20434" data-slug-hash="EyraKX" data-default-tab="result" data-user="mafeifan" data-embed-version="2" data-pen-title="scope = {}" class="codepen">See the Pen <a href="http://codepen.io/mafeifan/pen/EyraKX/">scope = {}</a> by finley (<a href="http://codepen.io/mafeifan">@mafeifan</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
@@ -36,10 +36,10 @@ HTML内容:
 ```html
 <div class="container" ng-controller="MyController">
     <div class="my-info">
-    名字：{{name}}<span ng-bind="name"></span><br/>
+    名字：{\{name}}<span ng-bind="name"></span><br/>
     年龄：<span ng-bind="age"></span><br />
     </div>
-    <div class="my-directive" my-directive my-name="{{name}}" age="age" change-my-age="changeAge()"></div>
+    <div class="my-directive" my-directive my-name="{\{name}}" age="age" change-my-age="changeAge()"></div>
 </div>
 ```
 
@@ -82,17 +82,17 @@ scope对象参数里有3类符号：
 
 > =符号可以将本地作用域上的属性同父级作用域上的属性进行双向的数据绑定。就像普通的数据绑定一样。
 
-调用函数修改age的值时父级作用域中的age被改变了，子级中的age值也跟着改变。因为changeAge()函数是修改的父级作用域中的age，=符号双向数据绑定的原则让子级的age值也被改变了。写法上注意一个是属性的值，一个是属性，所以在一个有方括号一个没有。
+调用函数修改age的值时，=符号双向数据绑定的原则让父级作用域中age和子级作用域中age值都改变了。写法上注意一个是属性的值，一个是属性，所以在一个有方括号一个没有。
 
 上面的例子如果只想子级age的值变化而父级age值不变，调用函数改变age值时就应该只改变子级作用域中的age，可以这样修改：
 
 ```html
 <div class="container" ng-controller="MyController">
     <div class="my-info">
-    名字：{{name}}<span ng-bind="name"></span><br/>
+    名字：{\{name}}<span ng-bind="name"></span><br/>
     年龄：<span ng-bind="age"></span><br />
     </div>
-    <div class="my-directive" my-directive my-name="{{name}}" age="{{age}}" change-my-age="changeAge()"></div>
+    <div class="my-directive" my-directive my-name="{\{name}}" age="{\{age}}" change-my-age="changeAge()"></div>
 </div>
 ```
 
@@ -129,3 +129,7 @@ angular.module("MyApp", [])
 ```
 
 这样子作用域中的age被改变，而父级不变。
+
+参考资料：
+
+《angular权威教程》
