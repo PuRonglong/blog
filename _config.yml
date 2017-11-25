@@ -78,5 +78,5 @@ theme: material
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/PuRonglong/blog.git
+  repo: git@github.com:PuRonglong/blog.git
   branch: master
