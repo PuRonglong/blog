@@ -25,7 +25,7 @@ js中最大的数字是多少？
 
 双精度浮点数（double）是计算机使用的一种数据类型，它使用 64 位（8字节）来存储一个浮点数，格式如下：
 
-<img src="" data-src="{{site.url}}/images/article/2017-4-16/1.png">
+![](/images/article/2017-4-16/1.png)
 
 * sign bit(符号): 用来表示正负号，占1位
 * exponent(指数): 用来表示次方数，占11位
@@ -35,7 +35,7 @@ js中最大的数字是多少？
 
 我们知道, 任何一个二进制浮点数可以如下表示:
 
-<img src="" data-src="{{site.url}}/images/article/2017-4-16/2.png">
+![](/images/article/2017-4-16/2.png)
 
 参考资料：https://www.zhihu.com/question/24423421
 

@@ -1,37 +1,16 @@
 <!DOCTYPE html>
 <html>
-
-	{% include head.html %}
-
-	<body>
-
-		<div class="judge-mobile-device">
-			<p>移动适配稍后推出，敬请期待~</p>
-			<p>亲，请在电脑端打开哦~😄</p>
-			<p>www.puronglong.com</p>
-		</div>
-
-		{% include tag.html %}
-		
-		<div class="left left-sidebar">
-			<ul class="header-list">
-				<li><a class="page-link" href="{{ site.url }}">首页</a></li>
-				<li><a class="page-link" href="{{ site.url }}/about">关于</a></li>
-				<li><a class="page-link" href="{{ site.url }}/feed.xml">订阅</a></li>
-			</ul>
-		</div>
-		<div class="page-content">
-			<div class="wrapper">
-				{{ content }}
-			</div>
-		</div>
-
-        <a href="javascript:;" class="to-top-button btn-floating btn-large waves-effect waves-light pink">
-            <i class="material-icons">navigation</i>
-        </a>
-
-		{% include footer.html %}
-
-	</body>
-
+{% include head.html %}
+<body>
+    <!--[if lt IE 10]>
+<div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
+<![endif]-->
+    <input id="nm-switch" type="hidden" value="{{ site.nightMode }}">
+    <div class="visible">
+      {{ content }}
+    </div>
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/assets/js/prism.js"></script>
+    <script src="/assets/js/index.min.js"></script>
+</body>
 </html>

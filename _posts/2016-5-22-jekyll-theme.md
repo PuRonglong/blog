@@ -278,3 +278,5 @@ end
 	```
 
 中间存放代码块，这样使用的话就需要不使用pygments，而使用rouge。修改以后同样需要修改css文件里的class名。
+
+关于 jekyll 里时间格式可以看这篇。[Jekyll Date Formatting Examples](http://alanwsmith.com/jekyll-liquid-date-formatting-examples)
